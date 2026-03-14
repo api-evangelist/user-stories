@@ -1,0 +1,14 @@
+name: User Stories
+description: A tool or practice for capturing software requirements from an end-user
+  perspective, typically following the format "As a [user], I want [goal], so that
+  [benefit]". Teams use it to align stakeholders, track progress, and adapt to changing
+  requirements throughout the project lifecycle.
+url: https://www.atlassian.com/agile/project-management/user-stories
+tags:
+- Agile
+- Requirements
+- Product Management
+created: '2025'
+modified: '2025'
+apis: []
+common: []
