@@ -1,14 +1,25 @@
+aid: user-stories
 name: User Stories
-description: A tool or practice for capturing software requirements from an end-user
-  perspective, typically following the format "As a [user], I want [goal], so that
-  [benefit]". Teams use it to align stakeholders, track progress, and adapt to changing
-  requirements throughout the project lifecycle.
-url: https://www.atlassian.com/agile/project-management/user-stories
+description: >-
+  A tool or practice for capturing software requirements from an end-user
+  perspective, typically following the format "As a [user], I want [goal], so
+  that [benefit]". Teams use it to align stakeholders, track progress, and adapt
+  to changing requirements throughout the project lifecycle.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-- Agile
-- Requirements
-- Product Management
-created: '2025'
-modified: '2025'
+  - Agile
+  - Requirements
+  - Product Management
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/user-stories/refs/heads/main/apis.yml
+created: '2025-01-01'
+modified: '2026-03-16'
+specificationVersion: '0.19'
 apis: []
-common: []
+common:
+  - type: Website
+    url: https://www.atlassian.com/agile/project-management/user-stories
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
