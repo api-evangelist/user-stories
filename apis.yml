@@ -9,8 +9,8 @@ type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - Agile
-  - Requirements
   - Product Management
+  - Requirements
 url: >-
   https://raw.githubusercontent.com/api-evangelist/user-stories/refs/heads/main/apis.yml
 created: '2025-01-01'
