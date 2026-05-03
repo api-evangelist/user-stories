@@ -1,0 +1,62 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "us": "https://api-evangelist.github.io/user-stories/vocab#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+
+    "UserStory": "us:UserStory",
+    "Epic": "us:Epic",
+    "Persona": "us:Persona",
+    "AcceptanceCriteria": "us:AcceptanceCriteria",
+    "StoryPoint": "us:StoryPoint",
+    "Sprint": "us:Sprint",
+    "Backlog": "us:Backlog",
+
+    "name": "schema:name",
+    "description": "schema:description",
+    "identifier": "schema:identifier",
+    "url": "schema:url",
+    "asA": "us:asA",
+    "iWant": "us:iWant",
+    "soThat": "us:soThat",
+    "persona": "us:persona",
+    "epic": "us:epic",
+    "acceptanceCriteria": "us:acceptanceCriteria",
+    "storyPoints": "us:storyPoints",
+    "priority": "us:priority",
+    "status": "us:status",
+    "tags": "schema:keywords",
+    "relatedStories": "us:relatedStories",
+    "apiCapability": "us:apiCapability",
+    "endpoint": "us:endpoint",
+    "method": "us:method",
+
+    "criteria": {
+      "@id": "us:criteria",
+      "@container": "@list"
+    },
+    "scenarios": {
+      "@id": "us:scenarios",
+      "@container": "@list"
+    },
+
+    "Developer": "us:Developer",
+    "APIConsumer": "us:APIConsumer",
+    "ProductManager": "us:ProductManager",
+    "EndUser": "us:EndUser",
+    "Administrator": "us:Administrator",
+    "DataAnalyst": "us:DataAnalyst",
+
+    "New": "us:New",
+    "InProgress": "us:InProgress",
+    "InReview": "us:InReview",
+    "Done": "us:Done",
+    "Blocked": "us:Blocked",
+
+    "MustHave": "us:MustHave",
+    "ShouldHave": "us:ShouldHave",
+    "CouldHave": "us:CouldHave",
+    "WontHave": "us:WontHave"
+  }
+}

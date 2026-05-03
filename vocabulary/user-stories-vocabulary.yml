@@ -1,0 +1,149 @@
+aid: user-stories-vocabulary
+name: User Stories Vocabulary
+description: >-
+  A taxonomy and vocabulary for describing API user stories in agile product
+  development contexts. Provides shared language for API teams to document,
+  organize, and communicate requirements from the end-user perspective across
+  the full API lifecycle from design through deprecation.
+version: '1.0'
+created: '2026-05-03'
+modified: '2026-05-03'
+
+categories:
+  - name: User Story Structure
+    description: Core components of a well-formed user story
+    terms:
+      - term: Persona
+        definition: The "As a..." role — the type of user whose goal the story serves
+        aliases: [Role, Actor, User Type]
+      - term: Goal
+        definition: The "I want..." statement describing what the user wants to accomplish
+        aliases: [Desire, Objective, Feature Request]
+      - term: Benefit
+        definition: The "So that..." statement explaining the value delivered
+        aliases: [Value, Outcome, Rationale, Justification]
+      - term: Acceptance Criteria
+        definition: Specific conditions that must be met for the story to be considered done
+        aliases: [Definition of Done, Conditions of Satisfaction, Test Criteria]
+      - term: Story Points
+        definition: Relative effort estimate for implementing the user story
+        aliases: [Effort Points, Complexity Points, Estimation]
+      - term: Epic
+        definition: A large body of work encompassing multiple related user stories
+        aliases: [Theme, Feature, Initiative]
+
+  - name: API Consumer Personas
+    description: Roles that consume or interact with APIs
+    terms:
+      - term: Application Developer
+        definition: Builds software applications using APIs to deliver features to end users
+        aliases: [App Dev, Frontend Developer, Mobile Developer]
+      - term: Integration Developer
+        definition: Builds connectors and data flows between systems using APIs
+        aliases: [Integration Engineer, Backend Developer, Middleware Developer]
+      - term: Data Engineer
+        definition: Builds data pipelines, ETL processes, and analytics infrastructure using APIs
+        aliases: [Data Platform Engineer, Analytics Engineer]
+      - term: DevOps Engineer
+        definition: Manages API infrastructure, CI/CD pipelines, and operational tooling
+        aliases: [Platform Engineer, SRE, Infrastructure Engineer]
+      - term: Security Engineer
+        definition: Implements and validates API security controls, authentication, and compliance
+        aliases: [AppSec Engineer, Security Architect]
+      - term: Product Manager
+        definition: Defines API requirements, roadmap, and success metrics
+        aliases: [API Product Manager, Technical PM]
+      - term: Data Scientist
+        definition: Consumes APIs for model training, inference, and research data access
+        aliases: [ML Engineer, Research Scientist]
+      - term: Business Analyst
+        definition: Translates business requirements into API user stories and acceptance criteria
+        aliases: [BA, Requirements Analyst, Systems Analyst]
+
+  - name: API Lifecycle Stages
+    description: Phases in the API lifecycle where user stories apply
+    terms:
+      - term: Design
+        definition: Stories about API design, schema definition, and contract creation
+      - term: Development
+        definition: Stories about SDK generation, code samples, and developer tooling
+      - term: Onboarding
+        definition: Stories about registration, key management, documentation, and quickstarts
+      - term: Integration
+        definition: Stories about connecting APIs to applications and workflows
+      - term: Operations
+        definition: Stories about monitoring, alerting, rate limiting, and SLA management
+      - term: Security
+        definition: Stories about authentication, authorization, encryption, and compliance
+      - term: Evolution
+        definition: Stories about versioning, deprecation, migration, and backward compatibility
+      - term: Analytics
+        definition: Stories about usage tracking, business intelligence, and reporting
+
+  - name: API Capability Story Types
+    description: Common categories of user stories for API capabilities
+    terms:
+      - term: Authentication Story
+        definition: A user story describing how an actor authenticates to access an API
+      - term: CRUD Story
+        definition: A user story describing create, read, update, or delete operations on a resource
+      - term: Search Story
+        definition: A user story describing querying or filtering a collection of resources
+      - term: Notification Story
+        definition: A user story describing receiving events or alerts from an API
+      - term: Integration Story
+        definition: A user story describing connecting an API to another system or service
+      - term: Reporting Story
+        definition: A user story describing generating reports or aggregated data views
+      - term: Admin Story
+        definition: A user story describing administrative management of API access or configuration
+
+  - name: Priority Levels
+    description: MoSCoW prioritization framework for user stories
+    terms:
+      - term: Must Have
+        definition: Critical requirement — the API cannot launch without this story
+        aliases: [P0, Critical, Blocker]
+      - term: Should Have
+        definition: Important requirement that adds significant value but is not critical for launch
+        aliases: [P1, High Priority]
+      - term: Could Have
+        definition: Nice-to-have enhancement that improves the experience but is not essential
+        aliases: [P2, Medium Priority, Enhancement]
+      - term: Won't Have
+        definition: Explicitly out of scope for this release cycle
+        aliases: [P3, Backlog, Deferred, Out of Scope]
+
+  - name: Story Status
+    description: Workflow states for tracking user story progress
+    terms:
+      - term: New
+        definition: Story has been created but not yet refined or estimated
+      - term: Refined
+        definition: Story has been discussed, acceptance criteria defined, and estimated
+      - term: In Progress
+        definition: Story is actively being implemented in the current sprint
+      - term: In Review
+        definition: Implementation is complete and under code review or QA testing
+      - term: Done
+        definition: Story meets all acceptance criteria and is deployed or released
+      - term: Blocked
+        definition: Story cannot proceed due to an external dependency or impediment
+      - term: Cancelled
+        definition: Story has been removed from scope and will not be implemented
+
+  - name: Agile Artifacts
+    description: Agile process artifacts related to user story management
+    terms:
+      - term: Product Backlog
+        definition: Ordered list of all user stories representing work to be done
+      - term: Sprint Backlog
+        definition: Subset of product backlog items selected for a specific sprint
+      - term: Definition of Done
+        definition: Shared understanding of what criteria must be met for a story to be complete
+      - term: Velocity
+        definition: Average story points completed per sprint, used for release planning
+      - term: Burndown Chart
+        definition: Visual representation of remaining work in a sprint or release
+      - term: Retrospective
+        definition: Team reflection on what worked and what to improve in the next sprint
