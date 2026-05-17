@@ -28,7 +28,7 @@ common:
     url: https://www.atlassian.com/agile/project-management/user-stories
   - type: GitHub
     url: https://github.com/api-evangelist/user-stories
-  - type: JSON-LD
+  - type: JSONLD
     url: json-ld/user-stories-context.jsonld
   - type: Vocabulary
     url: vocabulary/user-stories-vocabulary.yml
