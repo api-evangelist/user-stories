@@ -24,6 +24,12 @@ modified: '2026-05-03'
 specificationVersion: '0.19'
 apis: []
 common:
+  - type: TrustCenter
+    url: security/user-stories-trust-center.yml
+  - type: VulnerabilityDisclosure
+    url: security/user-stories-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/user-stories-domain-security.yml
   - type: Website
     url: https://www.atlassian.com/agile/project-management/user-stories
   - type: GitHub
