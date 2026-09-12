@@ -52,8 +52,6 @@ common:
     url: security/user-stories-vulnerability-disclosure.yml
   - type: DomainSecurity
     url: security/user-stories-domain-security.yml
-  - type: Website
-    url: https://www.atlassian.com/agile/project-management/user-stories
   - type: GitHub
     url: https://github.com/api-evangelist/user-stories
   - type: JSONLD
